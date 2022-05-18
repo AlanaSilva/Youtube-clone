@@ -89,7 +89,7 @@ const videos = [
       views: '618 mi de visualizações',
       date: 'há 8 anos',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb1.jpg',
+      thumb: '../images/thumb1.jpg',
     },
     {
       id: 2,
@@ -99,7 +99,7 @@ const videos = [
       views: '695 mil visualizações',
       date: 'há 1 semana',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb2.jpg',
+      thumb: '../images/thumb2.jpg',
     },
     {
       id: 3,
@@ -109,7 +109,7 @@ const videos = [
       views: '16 mil visualizações',
       date: 'há 2 anos',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb3.jpg',
+      thumb: '../images/thumb3.jpg',
     },
     {
       id: 4,
@@ -119,7 +119,7 @@ const videos = [
       views: '127 mi de visualizações',
       date: 'há 4 anos',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb4.jpg',
+      thumb: '../images/thumb4.jpg',
     },
     {
       id: 5,
@@ -129,7 +129,7 @@ const videos = [
       views: '2,9 mi de visualizações',
       date: 'há 2 anos',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb6.jpg',
+      thumb: '../images/thumb6.jpg',
     },
     {
       id: 6,
@@ -138,7 +138,7 @@ const videos = [
       views: '155 mil visualizações',
       date: 'há 1 dia',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb5.jpg',
+      thumb: '../images/thumb5.jpg',
     },
     {
       id: 7,
@@ -148,7 +148,7 @@ const videos = [
       views: '330 mil visualizações',
       date: 'há 3 meses',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb7.jpg',
+      thumb: '../images/thumb7.jpg',
     },
     {
       id: 8,
@@ -158,7 +158,7 @@ const videos = [
       views: '1,9 mi de visualizações',
       date: 'há 9 dias',
       avatar: '/images/avatar.jpeg',
-      thumb: './images/thumb8.jpg',
+      thumb: '../images/thumb8.jpg',
     },
   ];
   
@@ -273,7 +273,7 @@ export default function PrimarySearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <img src='../images/preto.png' alt='logo' height={'25px'}/>
+          <img src='.../images/preto.png' alt='logo' height={'25px'}/>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
